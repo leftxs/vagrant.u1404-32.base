@@ -12,6 +12,7 @@ Features
 ========
 
 - Makefile for easy setup
+- `vagrant-cachier plugin <http://fgrehm.viewdocs.io/vagrant-cachier>`_
 - provioning is done via `Ansible`_
 
 
@@ -40,6 +41,7 @@ If you don't want to use the Makefile you can also do it from hand::
     virtualenv --python=python2.7 .
     source bin/activate
     pip install ansible
+    vagrant plugin install vagrant-cachier
 
 Now work with vagrant as usual::
 
