@@ -4,8 +4,6 @@ vagrant.u1404-32.base
 
 Vagrant Base Box for based on `Ubuntu`_ 14.04 with `Ansible`_ as provisioner.
 
-This will setup a Ubuntu 14.04 - 32 bit server with Jenkins and Apache. The network is bridged, you can change that in the Vagrantfile.
-
 This is written for `Debian`_ and `Ubuntu`_ , the Makefile will most likely **not work** on other OS's, same goes for the virtualenv setup.
 
 Features
