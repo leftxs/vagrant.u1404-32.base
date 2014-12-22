@@ -32,7 +32,7 @@ Run Makefile::
     make bootstrap
     source bin/activate
 
-This will setup a virtualenv in vagrant.jenkins and will install Ansible via pip
+This will setup a virtualenv and install Ansible via pip
 
 If you don't want to use the Makefile you can also do it from hand::
 
